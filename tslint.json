@@ -1,0 +1,144 @@
+{
+	"extends": [
+		"tslint:recommended",
+		"codelyzer"
+	],
+	"rulesDirectory": [
+		"node_modules/codelyzer"
+	],
+	"rules": {
+		"array-type": [
+			true, "array"
+		],
+		"arrow-parens": false,
+		"forin": false,
+		"indent": [
+			true,
+			"tabs"
+		],
+		"curly": [true, "ignore-same-line"],
+		"linebreak-style": [
+			true,
+			"LF"
+		],
+		"no-console": false,
+		"quotemark": [
+			true,
+			"single",
+			"avoid-escape"
+		],
+		"max-line-length": false,
+		"no-consecutive-blank-lines": false,
+		"no-irregular-whitespace": true,
+		"no-trailing-whitespace": false,
+		"no-bitwise": false,
+		"object-literal-sort-keys": false,
+		"object-literal-key-quotes": false,
+		"no-string-literal": false,
+		"trailing-comma": false,
+		"variable-name": [
+			true,
+			"ban-keywords",
+			"check-format",
+			"allow-snake-case",
+			"allow-leading-underscore"
+		],
+		"interface-name": false,
+		"interface-over-type-literal": false,
+		"angular-whitespace": [
+			true,
+			"check-interpolation",
+			// "check-pipe",
+			"check-semicolon"
+		],
+		"banana-in-box": true,
+		"ordered-imports": false,
+		"max-classes-per-file": false,
+		"member-ordering": false,
+		"member-access": false,
+		// "component-selector": [
+		// 	true,
+		// 	"attribute",
+		// 	[
+		// 		"page",
+		// 		"modal",
+		// 		"block"
+		// 	],
+		// 	"kebab-case"
+		// ],
+		"unified-signatures": false,
+		"component-class-suffix": [
+			true,
+			"Component"
+		],
+		// "directive-selector": [
+		// 	true,
+		// 	"attribute",
+		// 	"ng",
+		// 	"camelCase"
+		// ],
+		"directive-class-suffix": [
+			true,
+			"Directive"
+		],
+		"use-host-property-decorator": true,
+		"no-attribute-parameter-decorator": true,
+		"no-input-rename": true,
+		"no-output-rename": true,
+		"no-forward-ref": true,
+		"pipe-naming": [
+			true,
+			"camelCase"
+		],
+		"space-within-parens": [
+			true,
+			0
+		],
+		"typedef-whitespace": [
+			true,
+			{
+				"call-signature": "nospace",
+				"index-signature": "nospace",
+				"parameter": "nospace",
+				"property-declaration": "nospace",
+				"variable-declaration": "nospace"
+			},
+			{}
+		],
+		"use-life-cycle-interface": true,
+		"use-input-property-decorator": true,
+		"use-output-property-decorator": true,
+		"use-pipe-transform-interface": true,
+		"no-shadowed-variable": false,
+		"no-var-requires": false
+	},
+	"jsRules": {
+		"forin": false,
+		"indent": [
+			true,
+			"tabs"
+		],
+		"linebreak-style": [
+			true,
+			"LF"
+		],
+		"no-console": false,
+		"quotemark": [
+			true,
+			"single",
+			"avoid-escape"
+		],
+		"max-line-length": false,
+		"no-consecutive-blank-lines": false,
+		"no-irregular-whitespace": true,
+		"no-trailing-whitespace": false,
+		"object-literal-sort-keys": false,
+		"variable-name": [
+			true,
+			"ban-keywords",
+			"check-format",
+			"allow-snake-case",
+			"allow-leading-underscore"
+		]
+	}
+}
